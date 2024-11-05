@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header */
+
+nav {
+    background-color: rgb(85,81,80);
+}
+
+#bgImage {
+    background-image: url(../img/muse_fond.jpg);
+    background-size: cover;
+    height: 120vh;
+}
+
+#parentNav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    font-family: "Amatic SC", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.enfantNav1 {
+    width: 200px;
+    color: white;
+}
+
+/* Main */
+
+
+article {
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: "Amatic SC", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+/* Image gauche et texte à droite */
+
+#parentImgLtxtR {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enfantImgLtxtR {
+    width: 550px;
+    
+}
+
+
+/* Les 4 images */
+
+#parent4Img {
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.enfant4Img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+/* Section grise du milieu */
+
+#sectionMilieu {
+    background-color: rgb(85,81,80);
+    padding: 30px;
+}
+
+#parentSectionGrise {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.enfantSectionGrise {
+width: 50%;
+text-align: center;
+}
+
+h1 {
+    color: rgb(81,200,240);
+    font-family: "Amatic SC", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+section h1:nth-of-type(2) {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    font-style: italic;
+}
+
+section h1:nth-of-type(3) {
+    background-color: rgb(255,126,244);
+    border-radius: 80px;
+    border: solid 3px rgb(81,200,240);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Section avec les 6 images */
+
+#Disco {
+    text-align: center;
+}
+
+#section6img {
+    width: 80%;
+    margin: auto;
+}
+
+/* Les 3 premières images */
+
+#parent3FirstImg {
+display: flex;
+justify-content: space-between;
+}
+
+.enfant3FirstImg {
+    width: 30%;
+}
+
+/* Les 3 dernières images */
+
+#parent3LastImg {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.enfant3LastImg {
+    width: 30%;
+}
+
+/* Article News */
+
+/* 1 texte de chaque côté et image au milieu */
+
+#p2txt1imgRight {
+    text-align: right;
+}
+
+#parent2txt1img {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.enfant2txt1img {
+width: 30%;
+}
+
+/* 1 image de chaque côté et texte au milieu */
+
+#parent1txt2img {
+display: flex;
+align-items: center;
+justify-content: space-between;
+text-align: center;
+margin-top: 40px;
+}
+
+.enfant1txt2img {
+width: 30%;
+}
+
+/* Footer */
+
+/* chevron haut */
+
+footer {
+    background-color: rgb(85,81,80);
+    margin-top: 50px;
+}
+
+#parentFooter {
+display: flex;
+justify-content: center;
+justify-content: space-around;
+align-items: center;
+}
+
+.enfantFooter {
+width: 200px;
+}
+
+#parentNav2 {
+display: flex;
+justify-content: space-between;
+}
+
+.enfantNav2 {
+    width: 50px;
+}
+
+#chevron {
+    width: 100px;
+    transform: rotate(180deg)
+}
